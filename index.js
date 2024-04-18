@@ -46,7 +46,7 @@ async function askName() {
     const answers = await inquirer.prompt({
       name: 'question_1',
       type: 'list',
-      message: 'What is my favorite color\n',
+      message: 'What color is my hair\n',
       choices: [
         'Blue',
         'Yellow',
@@ -63,7 +63,7 @@ async function askName() {
     const answers = await inquirer.prompt({
       name: 'question_2',
       type: 'list',
-      message: 'What is my favorite Marvel character?\n',
+      message: 'What movie thit i hate?\n',
       choices: [
         'Spiderman',
         'Hulk',
@@ -80,7 +80,7 @@ async function askName() {
     const answers = await inquirer.prompt({
       name: 'question_3',
       type: 'list',
-      message: 'What is my favorite soccer player?\n',
+      message: 'Who is the smaller?\n',
       choices: [
         'Messi',
         'Cr7',
@@ -96,7 +96,7 @@ async function askName() {
     const answers = await inquirer.prompt({
       name: 'question_4',
       type: 'list',
-      message: 'What is my favorite video game ?\n',
+      message: 'What game do i player yesterdat ?\n',
       choices: [
         'GTA5 ',
         'Rocket League',
@@ -112,7 +112,7 @@ async function askName() {
     const answers = await inquirer.prompt({
       name: 'question_5',
       type: 'list',
-      message: 'What is my name?\n',
+      message: 'What is my best friend name?\n',
       choices: [
         'David',
         'Luis',
